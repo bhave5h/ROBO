@@ -1,9 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Header from './components/header.jsx'
 import Hero from './components/Hero.jsx'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const App = () => {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    })
+  })
+
   return (
     
     <main>
