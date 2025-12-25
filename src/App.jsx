@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from './components/header.jsx'
+import Hero from './components/Hero.jsx'
 
 
 const App = () => {
@@ -14,6 +15,9 @@ const App = () => {
 
       {/* Header */}
       <Header />
+
+      {/* Hero Section */}
+      <Hero />
 
     </main>
   )

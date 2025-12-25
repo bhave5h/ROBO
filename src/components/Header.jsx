@@ -1,5 +1,6 @@
 import React from 'react'
 import 'boxicons/css/boxicons.min.css';
+import Hero from './Hero';
 
 const Header = () => {
     // Toggle Mobile Menu 
