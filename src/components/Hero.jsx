@@ -1,4 +1,5 @@
 import 'boxicons/css/boxicons.min.css';
+import Spline from '@splinetool/react-spline';
 
 const Hero = () => {
   return (
@@ -26,11 +27,14 @@ const Hero = () => {
                 </a>
 
                 <a href="#" className='border border-[#2a2a2a] py-2 sm:py-3 px-8 sm:px-10 rounded-full sm:text-lg text-sm font-semibold tracking-wider transition-all duration-300 hover:bg-[#1a1a1a] bg-gray-300 text-black hover:text-white'>
-                    <i className="bx bx-book"></i>
-                    Get started
+                     Get started <i className="bx bx-link-external"></i>
                 </a>
             </div>
         </div>
+
+        { /* 3d robot */ }
+        <Spline scene="https://prod.spline.design/e2Oy4H4rOlgrLFz5/scene.splinecode" />
+
     </main>
   )
 }
